@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class PersonException {
+public abstract class PersonException extends RuntimeException {
+    public PersonException(String message) {
+        super(message);
+    }
 }

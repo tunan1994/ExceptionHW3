@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class PhoneNumberException {
+public class PhoneNumberException extends PersonException{
+    public PhoneNumberException(String message) {
+        super(message);
+    }
 }

@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class PersonGenderException {
+public class PersonGenderException extends PersonException{
+    public PersonGenderException(String message) {
+        super(message);
+    }
 }

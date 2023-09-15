@@ -1,2 +1,6 @@
-package PACKAGE_NAME;public class PersonStringException {
+public class PersonStringException extends PersonException{
+
+    public PersonStringException(String message) {
+        super(message);
+    }
 }
